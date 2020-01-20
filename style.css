@@ -1,12 +1,12 @@
 body {
-	background-color: #adadad;
+	background-color: #adadad;/*设置背景色*/
 }
 
 #yinyang {
 	width: 200px;
 	height: 200px;
 	border-radius: 50%;
-	background: linear-gradient(
+	background: linear-gradient(/*圆球上半部分为白色，下半部分为黑色*/
 		to bottom,
 		#ffffff 0%,
 		#ffffff 50%,
@@ -23,7 +23,7 @@ body {
 	width: 20px;
 	height: 20px;
 	border-radius: 50%;
-	border: 40px solid black;
+	border: 40px solid black;/*左侧黑球套白点*/
 	background-color: white;
 	left: 0;
 	top: 50px;
@@ -35,7 +35,7 @@ body {
 	width: 20px;
 	height: 20px;
 	border-radius: 50%;
-	border: 40px solid white;
+	border: 40px solid white;/*右侧白球套黑点*/
 	background-color: black;
 	right: 0;
 	top: 50px;
